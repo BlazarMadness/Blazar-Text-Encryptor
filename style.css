@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.presentacion{
+  display: flex;
+  align-items: center;
+
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(body\ univers.avif);
+}
+  
+  .titulo{
+    font-family: "Julius Sans One", sans-serif;
+  }
+
+  .texto1{
+    background-color: #fdfbfb;
+    font-family: "Julius Sans One", sans-serif;
+  }
+
+  .texto2{
+    color: #fdfbfb;
+    font-family: "Julius Sans One", sans-serif;
+  }
+
+
+  #texto {
+    justify-content: space-between;
+    height: 150px;
+    color: #f0f0f0;
+    width: 70%; /* Ancho del cuadro */
+  margin: 20px auto; /* Margen superior e inferior, y centrado horizontalmente */
+  padding: 20px; /* Espacio interior del cuadro */
+  border: 1px solid #ccc; /* Borde del cuadro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.363);
+    background-image: url(cuadro\ de\ texto\ 2.avif);
+  }
+
+  #resultado {
+    justify-content: space-between;
+    height: 150px;
+    color: #f0f0f0;
+    width: 70%; /* Ancho del cuadro */
+  margin: 20px auto; /* Margen superior e inferior, y centrado horizontalmente */
+  padding: 20px; /* Espacio interior del cuadro */
+  border: 1px solid #ccc; /* Borde del cuadro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.178);
+    background-image: url(universo\ rojo.avif);
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #encriptar{
+    margin-right: 10px;
+    background-image: url(universo\ texto\ 1.jpg);
+  }
+
+  #desencriptar {
+    margin-right: 10px;
+    background-image: url(universo\ rojizo.jpg);
+  }
+  
+  #copiar {
+    margin-right: 10px;
+    background-image: url(nebulosa.png);
+
+  }
+
+  #limpiar{
+    background-image: url(universo\ blanco.png);
+  
+  }
+  
+  button:hover {
+    border: 4px solid #ffffff;
+   
+  }
+
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  .CopyRight{
+    color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #fdfbfb;
+    margin-bottom: 10px;
+  }
